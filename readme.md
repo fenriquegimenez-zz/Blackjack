@@ -12,5 +12,5 @@ Realizado con el objetivo de poner en práctica los conocimientos adquiridos del
 - Googling for answers xD
 
 ## Librerías utilizadas 
-- [Bootstrap](www.getbootstrap.com)
-- [Underscore.js](www.underscorejs.org)
+- [Bootstrap](https://www.getbootstrap.com)
+- [Underscore.js](https://www.underscorejs.org)

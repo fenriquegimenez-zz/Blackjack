@@ -1,3 +1,10 @@
+<!-- Mi primer juego con JavaScript! Luego de mucho esfuerzo por fin lo puedo hacer, no solo; pero por fin pude! 
+
+San Lorenzo, 12 de junio de 2020
+-->
+
+
+
 <!DOCTYPE html>
 <html lang="es">
   <head>
@@ -17,19 +24,17 @@
 
     <div class="row mt-2">
       <div class="col text-center">
-        <button class="btn btn-danger">Nuevo Juego</button>
-        <button class="btn btn-primary">Pedir Carta</button>
-        <button class="btn btn-primary">Detener</button>
+        <button id="btnNuevo" class="btn btn-danger">Nuevo Juego</button>
+        <button id="btnPedir" class="btn btn-primary">Pedir Carta</button>
+        <button id="btnDetener" class="btn btn-primary">Detener</button>
       </div>
     </div>
     <div class="row container">
       <div class="col">
-        <h1>Jugador 1 - <small>0</small></h1>
+        <h1>Jugador - <small>0</small></h1>
         <div id="jugador-cartas">
-          <img class="carta" src="./assets/cartas/2D.png" />
-          <img class="carta" src="./assets/cartas/2D.png" />
-          <img class="carta" src="./assets/cartas/2D.png" />
-          <img class="carta" src="./assets/cartas/2D.png" />
+          <!-- <img class="carta" src="./assets/cartas/2D.png" /> -->
+          
         </div>
       </div>
     </div>
@@ -38,14 +43,14 @@
       <div class="col">
         <h1>Computadora - <small>0</small></h1>
         <div id="computadora-cartas">
+          <!-- <img class="carta" src="./assets/cartas/3D.png" />
           <img class="carta" src="./assets/cartas/3D.png" />
           <img class="carta" src="./assets/cartas/3D.png" />
-          <img class="carta" src="./assets/cartas/3D.png" />
-          <img class="carta" src="./assets/cartas/3D.png" />
+          <img class="carta" src="./assets/cartas/3D.png" /> -->
         </div>
       </div>
     </div>
     <script src="./js/underscore-min.js"></script>
-    <script src="../02.blackjack/js/juego.js"></script>
+    <script src="./js/juego.js"></script>
   </body>
 </html>

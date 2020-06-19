@@ -64,7 +64,7 @@
       puntosHTML[1].innerText = puntosComputadora;
 
       const imgCarta = document.createElement("img");
-      imgCarta.src = `../assets/cartas/${carta}.png`;
+      imgCarta.src = `assets/cartas/${carta}.png`;
       imgCarta.classList.add("carta");
       divCartasComputadora.append(imgCarta);
 
@@ -94,7 +94,7 @@
     puntosHTML[0].innerText = puntosJugador;
 
     const imgCarta = document.createElement("img");
-    imgCarta.src = `../assets/cartas/${carta}.png`;
+    imgCarta.src = `assets/cartas/${carta}.png`;
     imgCarta.classList.add("carta");
 
     divCartasJugador.append(imgCarta);
